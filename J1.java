@@ -21,19 +21,19 @@ public class J1 {
 	            if(num2==num1)
 	            	throw new ArrayIndexOutOfBoundsException(); 
 	            else
-	            	System.out.println("與第一次輸入不同：");
+	            	System.out.println("與第一次輸入不同");
 	                System.out.println("請再輸入一次密碼：");
 	            	num3 = scanner.nextInt();
 	            	if(num3==num1)
 	            		throw new ArrayIndexOutOfBoundsException(); 
 	            	else
-	            		System.out.println("與第一次輸入不同：");
+	            		System.out.println("與第一次輸入不同");
 	            	    System.out.println("請再輸入一次密碼：");
 	            	    num4 = scanner.nextInt();
 	            	    if(num4==num1)
 	            	    	throw new ArrayIndexOutOfBoundsException();
 	            	    else
-	            	    	System.out.println("與第一次輸入不同：");
+	            	    	System.out.println("與第一次輸入不同");
 	            	        throw  new  RuntimeException("輸入三次錯誤！程式停止！");
 	      }
 	      catch(ArithmeticException e)
