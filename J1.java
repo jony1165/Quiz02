@@ -38,7 +38,7 @@ public class J1 {
 	      }
 	      catch(ArithmeticException e)
 	      {
-	         System.out.println("沒有輸入！");
+	         System.out.println("沒有輸入4位數以上密碼！");
 	      }
           catch(ArrayIndexOutOfBoundsException e)
 	      {
